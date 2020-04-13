@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=xamp_linux_launcher
+Type=Application
+Exec=/opt/xamp_linux_launcher/xamp_linux_launcher
+Terminal=false
+NoDisplay=false
+Categories=Utility;
+Version=0.0.0
+Icon=xamp_linux_launcher
