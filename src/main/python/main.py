@@ -115,7 +115,6 @@ class Window(QWidget):
     def __readConfig(self):
         runPath = None
         with open(appctxt.get_resource('config/config.json'),'r') as r_file:
-            #read the data from the file 
             data = r_file.read()
             dataDictionary = json.loads(data)
             runPath = dataDictionary['runFile']
@@ -124,7 +123,7 @@ class Window(QWidget):
    
 
 if __name__ == '__main__':
-    appctxt = ApplicationContext()       # 1. Instantiate ApplicationContext
+    appctxt = ApplicationContext()       
     window = Window()
-    exit_code = appctxt.app.exec_()      # 2. Invoke appctxt.app.exec_()
+    exit_code = appctxt.app.exec_()      
     sys.exit(exit_code)
