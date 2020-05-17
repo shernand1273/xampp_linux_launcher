@@ -31,9 +31,11 @@ Executable is located in directory: target/xamp_linux_launcher/xamp_linux_launch
 <p>After agreeing to the terms and conditions, you will have to configure executable.  This program creates an executable icon by linking it to the xampp .run file in the application directory.</p>
 
 <ul>
-<li>![Image description](s1.png)</li>
-<li>![Image description](s2.png)</li>
-<li>![Image description](s3.png)</li>
+<li></li>
 </ul>
+
+![Image description](s1.png)
+![Image description](s2.png)
+![Image description](s3.png)
 
 
