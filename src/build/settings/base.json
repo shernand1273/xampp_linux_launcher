@@ -1,6 +1,6 @@
 {
-    "app_name": "xamp_linux_launcher",
+    "app_name": "xampp_linux_launcher",
     "author": "Steven Hernandez",
     "main_module": "src/main/python/main.py",
-    "version": "0.0.0"
+    "version": "1"
 }

@@ -1,10 +1,25 @@
+#     Copyright (C) 2020, Steven Hernandez#     
+#     This file is part of xampp_launcher.
+
+#     xampp_launcher is free software: you can redistribute it and/or modify
+#     it under the terms of the GNU Affero General Public License as published by
+#     the Free Software Foundation, either version 3 of the License, or
+#     (at your option) any later version.
+
+#     xampp_launcher is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU Affero General Public License for more details.
+
+#     You should have received a copy of the GNU Affero General Public License
+#     along with Foobar.  If not, see <https://www.gnu.org/licenses/>.
+
 from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtWidgets import QFileDialog
 from PyQt5.QtWidgets import QWidget
 import sys
 import json
 
-#opens up the file dialog widget for the user to select the .run file
 def addButtonCLicked(parentObj):
     file = QFileDialog()
     path = file.getOpenFileName()[0]
@@ -19,8 +34,6 @@ def addButtonCLicked(parentObj):
                                             color:black;
                                         """)
 
-    
-#closes the program when the user confirms
 def cancelButtonClicked(parent):
     message = QMessageBox.question(parent,
                                     "Quit",
@@ -33,10 +46,6 @@ def cancelButtonClicked(parent):
     elif(message == QMessageBox.Yes):
         sys.exit(None)
 
-
-# function checks that th user selected the .run file, 
-# makes sure that the input is not empty, 
-# writes the file path to the json configuration file
 def finalizeButtonClicked(parent,context):
     if(parent.pathInput.text()== '.run file location'):
         msg = QMessageBox.information(parent,"File Missing",".run file has not been added, select it beofore finalizing",buttons=QMessageBox.Ok,defaultButton=QMessageBox.Ok)
@@ -48,7 +57,7 @@ def finalizeButtonClicked(parent,context):
             try:
                 jsonFileData = json.load(open(context.get_resource('config/config.json')))
             except Exception as error:
-                print(error)#TODO --- Tell the user theere was a problem
+                message = QMessageBox.information(none,"Error","There seems to be a problem with your configuration file.  Try reinstalling this application.",buttons = QMessageBox.OK)
         
             else:
                 jsonFileData['runFile']=runFilePath
@@ -66,7 +75,6 @@ def finalizeButtonClicked(parent,context):
             msgBox = QMessageBox.information(parent,"Invalid File","The file you selected is invalid, ensure it is the xampp .run file",buttons=QMessageBox.Ok,defaultButton=QMessageBox.Ok)
             if(msgBox == QMessageBox.Ok):
                 pass
-
 
 def closeButtonClicked():
     sys.exit(None)
