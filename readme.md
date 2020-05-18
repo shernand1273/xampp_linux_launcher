@@ -44,6 +44,6 @@ Executable is located in directory: target/xamp_linux_launcher/xamp_linux_launch
 
 
 <h2>NOTE</h2>
-This application launches xampp under sudo.  A terminal session will open up asking you for your password.  
+This application launches xampp under sudo.  A terminal session will open up asking you for your password before running it.  
 
 
