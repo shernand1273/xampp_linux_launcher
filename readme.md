@@ -30,12 +30,16 @@ Executable is located in directory: target/xamp_linux_launcher/xamp_linux_launch
 <h2>Configuring xampp executable</h2>
 <p>After agreeing to the terms and conditions, you will have to configure executable.  This program creates an executable icon by linking it to the xampp .run file in the application directory.</p>
 
-<ul>
-<li></li>
-</ul>
+<strong>Step 1: </strong> In hte setup utility, click on the browser button to open the file dialog.  Travel to the xampp install path.  Should be located in the opt/ folder if you installed to default location.  See picture below.
 
 ![Image description](s1.png)
+
+<strong>Step 2:</strong>cd to lampp/ and find the .run file.  Should be something like <em>opt/lampp/manager-linux-x64.run</em>. See picture below.
+
 ![Image description](s2.png)
+
+<strong>Step 3:</strong>Click finalize once you have the right executable. 
+
 ![Image description](s3.png)
 
 
