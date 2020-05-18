@@ -38,7 +38,7 @@ Executable is located in directory: target/xamp_linux_launcher/xamp_linux_launch
 
 ![Image description](s2.png)
 
-<strong>Step 3:</strong>Click finalize once you have the right executable. 
+<strong>Step 3:</strong>Click <strong>finalize</strong> once you have the right executable. 
 
 ![Image description](s3.png)
 
