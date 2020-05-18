@@ -1,4 +1,4 @@
-DESCRIPTION: Creates an executable and dockable icon for linux distros of xampp
+DESCRIPTION: XAMPP control panel launcher with dockable Icon.
     Copyright (C) 2020  Steven Hernandez
 
     This program is free software: you can redistribute it and/or modify
@@ -14,5 +14,5 @@ DESCRIPTION: Creates an executable and dockable icon for linux distros of xampp
     You should have received a copy of the GNU Affero General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-    Contact me(Author) at shernand1273@yahoo.com with any questions.
+    For any questions, contact (Author) at shernand1273@yahoo.com 
 

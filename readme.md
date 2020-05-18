@@ -5,7 +5,7 @@ Executable is located in directory: target/xamp_linux_launcher/xamp_linux_launch
 <h1>Installing</h1>
 
 1. cd to target/
-2. run 'sudo dpkg -i xamp_linux_launcher.deb'
+2. run 'sudo dpkg -i xampp_linux_launcher.deb'
 3. installation is run on 'sudo' so you will need to enter your password
 
 <h2>Install location</h2>
@@ -42,8 +42,10 @@ Executable is located in directory: target/xamp_linux_launcher/xamp_linux_launch
 
 ![Image description](s3.png)
 
+<p>When the setup is complete, you will be able to launch the XAMPP control panel by clicking on the launcher icon (See below)
 
-<h2>NOTE</h2>
-This application launches xampp under sudo.  A terminal session will open up asking you for your password before running it.  
+![Image description](128.png)
+
+You can now add that icon to your favorites. 
 
 

@@ -2,5 +2,7 @@
     "app_name": "xampp_linux_launcher",
     "author": "Steven Hernandez",
     "main_module": "src/main/python/main.py",
-    "version": "1"
+    "version": "1",
+    "gpg_key": "087518C579431856B8FE650BBD8C4F34A1C8C830",
+    "gpg_name": "Steven Hernandez"
 }
